@@ -2,14 +2,18 @@
   "name": "src",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/NguyenDacDat/Test-Bootstrap/src",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "5.3.3"
+    "bootstrap": "5.3.3",
+    "gh-pages": "^6.1.1"
   }
 }
